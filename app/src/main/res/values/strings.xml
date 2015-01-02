@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RKSV Assignment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="url_download">https://www.dropbox.com/s/f8xsjccaksjeljn/data.json?dl=1</string>
+    <string name="total_item_count">Total Items are %1d</string>
+    <string name="total_items">Total Items</string>
+
+</resources>

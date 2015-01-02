@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/total_item_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="@dimen/total_count_text_size"
+        android:text="@string/total_items"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/padding_top"
+        android:paddingBottom="@dimen/padding_bottom"
+        android:gravity="center"
+
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        />
+
+    <com.pyus13.rksvassignment.widget.MyRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:layout_below="@+id/total_item_text"
+        android:paddingTop="15dp"
+        android:visibility="gone"
+        android:overScrollMode="never"
+        >
+
+    </com.pyus13.rksvassignment.widget.MyRecyclerView>
+
+</RelativeLayout>
